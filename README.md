@@ -1,16 +1,40 @@
-# qual_cep
+# QUAL_CEP? 🏡📦
 
-A new Flutter project.
+Aplicativo Flutter para consulta de CEPs com visualização de localização no mapa.
 
-## Getting Started
+## 📱 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Busca CEP via API (ViaCEP)
+- Exibe dados como logradouro, bairro, cidade, estado
+- Mostra a localização no mapa usando `flutter_map` (OpenStreetMap)
+- Geração de APK para instalação no Android
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📦 APK (Android)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Você pode baixar e instalar o APK diretamente no seu Android:
+
+👉 [`app-release.apk`](build/app/outputs/flutter-apk/app-release.apk)
+
+### Como instalar no Android:
+
+1. Baixe o arquivo `app-release.apk` do repositório (link acima).
+2. Transfira para o seu celular (via USB, e-mail, Google Drive, etc).
+3. No celular:
+   - Vá em **Configurações > Segurança**.
+   - Ative a opção **"Permitir instalação de apps de fontes desconhecidas"** (se ainda não estiver ativa).
+4. Abra o APK com um gerenciador de arquivos e toque em **Instalar**.
+5. Pronto! O app estará disponível na sua lista de aplicativos. 🎉
+
+> ⚠️ Atenção: esse processo é necessário porque o aplicativo ainda **não está na Play Store**.
+
+---
+
+## 🚀 Rodando via Flutter
+
+```bash
+git clone https://github.com/seu-usuario/qual_cep.git
+cd qual_cep
+flutter pub get
+flutter run

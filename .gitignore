@@ -61,6 +61,8 @@ linux/build/
 *.swp
 *.DS_Store
 
-# APKs / Builds (exceto o final que queremos)
+# Permitir APKs dentro da pasta release-apk
+!release-apk/*.apk
+
+# APKs / Builds - Ignorar todos os APKs exceto os da pasta release-apk
 *.apk
-!build/app/outputs/flutter-apk/app-release.apk

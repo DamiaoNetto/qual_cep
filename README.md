@@ -15,7 +15,8 @@ Aplicativo Flutter para consulta de CEPs com visualização de localização no 
 
 Você pode baixar e instalar o APK diretamente no seu Android:
 
-👉 [`app-release.apk`](build/app/outputs/flutter-apk/app-release.apk)
+👉 [Download APK](https://github.com/DamiaoNetto/qual_cep/raw/main/release-apk/app-release.apk)
+
 
 ### Como instalar no Android:
 
